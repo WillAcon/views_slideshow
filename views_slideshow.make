@@ -23,12 +23,13 @@ api = 2
 ; ---------
 ; Json2
 libraries[json2][type] = "libraries"
-libraries[json2][download][type] = "git"
-libraries[json2][download][url] = "https://github.com/df-williams/json2.git" 
+libraries[json2][download][type] = "file"
+libraries[json2][download][url] = "https://github.com/df-williams/json2/archive/master.zip" 
 libraries[json2][destination] = "libraries"
 
 ; Jquery.cycle
 libraries[jquery.cycle][type] = "libraries"
-libraries[jquery.cycle][download][type] = "git"
-libraries[jquery.cycle][download][url] = "https://github.com/df-williams/jquery.cycle.git" 
+libraries[jquery.cycle][download][type] = "file"
+libraries[jquery.cycle][download][url] = "https://github.com/df-williams/jquery.cycle/archive/master.zip" 
 libraries[jquery.cycle][destination] = "libraries"
+
